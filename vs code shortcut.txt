@@ -1,0 +1,20 @@
+1. multi curser=alt+mouse left button
+
+2. multi curser in a line by just moving = alt+shift+mouse left button
+
+3. ctr + enter = new line
+
+4.ctr+n = new file
+
+5. ctr+` = open terminal
+
+6.user snippets = $1 or $2 - for contain write in " "
+
+7. print(f"ghvfxvg {}")= type tab to move from write to {}
+
+8. DOUBLE click to open file from left
+
+9. in powershell write code . = new folder will that directory will open with vscode
+
+
+10. Alt + Z for text word wrap

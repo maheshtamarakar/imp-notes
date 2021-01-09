@@ -1,0 +1,135 @@
+>git config --global user.name" "=to give ur name
+
+>git config --global user.email" "=to give email id
+
+>git config user.name = to check the name
+
+>git config user.email= to check email 
+
+>git init = to make git account
+
+
+
+1. rm -rf .git = to delete every file in git
+
+2. touch any file with extension like error.log u can creat 
+
+3. git status = to check the status 
+
+4. git add --a or. = to add all file for stage
+
+5. git commit m" can lend the msg " 
+
+6. git add first.txt = in that way u can stage any certain file
+
+7. touch .gitignore = by writing any useless file u dont want to stage or ignore
+
+8. *.log =if u want to ignore all .log extension file
+
+9. folder = dir/(folder) write it on .gitignore to ignore
+
+10. git ignore blank folder by default
+
+11. /dir/ = so .gitignore only ignore outer dir(folder)
+
+12. git diff = compare working directory(modified/unstage) with staging(not modified/stage) area - give u the change
+
+13. git diff --staged = compare before commit to current stage
+
+14. git commit -a -m"" = to skip staging 
+
+15. Tab for suggection 
+
+16. git rm file name = to delet file - it will remove and stage
+
+17. git mv first.txt first_rename.txt = to rename with stage
+
+18. even u keep file in .gitignore and u had tracked that file before it will track that 
+
+19. git rm --cached file name = to untracked only the file will be there but this time it wont get tracked
+
+20. git log -p = show the diff - what has added and remove
+
+21. q = for exit
+
+22. git log -p -3 = only show 3 log along with diff
+
+23. git log --stat = explain in short
+
+24. git log -- pretty=oneline = explain in one line
+
+25. git log --pretty=short  = explain in short wont tell diff
+
+26. git log pretty=full  = explain little more
+
+27. 1.author = who made the file
+    2.commit = who edit the file
+
+28. git log --since=2.days or weeks or months or years   = tell u the last 2 days work
+
+29. git log --pretty=format:"%h -- %an"  =   1.%an=author name 2. %h=inshort tell 3.%ae=show email
+
+30. git scm useful option for git log format = to access above formate
+
+31. git commit --amend = to edit comment - it will open an editor 1. click -'i' = for write 2. click -'Esc' 
+    then type- colon(:) then type wq= to exit
+
+32. git restore --staged file name = to unstage
+
+33. git checkout -- filename = to unmodifie the file at a time one undo only(only if file isn't stage) 
+
+34. git checkout -f = all file will undo at instance and file should be tracked (only if file isn't stage) 
+
+35. remote = ek website or repositry like github where i can push or pull my data
+
+36. git remote add origin https://github.com/maheshtamarakar/git_practice.git = insead
+of 'origin' i can write whatever i want and  'origin' = https://github.com/maheshtamarakar/git_practice.git
+
+37. fetch =pull
+
+38. git remote = show that name of your url
+
+39. git remote -v = show the url where to fetch and where to pull
+
+40. git push -u origin master = to push ur new commit
+
+41. git config --global alias.st status = for making short to the command like over 
+    here i can us st insted of status
+
+42. git config --global alias.unstage 'restore --staged--' = mean restore --staged-- instead i can use unstage
+    it will be like = git unstage file name = to unstage
+    normal form is git restore --staged file name
+
+43. git checkout -b develp = creat new branch , develpo = instead u can give
+    whatever name u want to the branch, it to work parallely without any 
+    change of ur master branch
+
+44. git checkout master = to come back to master branch
+
+45. git branch = to check how many branch u have
+
+46. after commit only switch the branch
+
+47. how to merge = first come to main branch then type = git merge brach name
+    then click on accept incomimg changes in vs code , then add, then commit
+
+48. git branch -v = saw branches and commit hash, commit msg
+
+49. git branch --merged = already merged branch so i can delet it too bcoz it
+    already merged
+
+50. git branch --no-merged = not merged branch
+
+51. git branch -d branch name = to delet the branch, but if not merged then 
+    it will show error, even u want to delet it use = git branch -D branch name
+
+52. when u push file to remote(github) it only push master branch 
+    
+53. now to push other branch switch to that branch and simply type
+    =git push origin branch name
+
+54. to change name of branch to remote
+    =git push origin branch_name:new_branch_name
+
+55. delet branch from remote = git push -d origin branch name
+ 
